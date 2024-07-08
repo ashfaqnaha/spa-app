@@ -4,10 +4,10 @@
 import { useEffect, useState } from 'react';
 
 const images = [
-  'url(/web1.jpg)',
-  'url(/web3.jpg)',
-  'url(/web5.jpg)',
-  'url(/web6.jpg)',
+  'url(/web1.webp)',
+  'url(/web7.webp)',
+  'url(/web6.webp)',
+  'url(/web8.webp)',
 ];
 
 const BackgroundShuffler = () => {
