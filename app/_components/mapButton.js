@@ -27,7 +27,7 @@ const MapButton = ({ latitude=69, longitude=69 }) => {
       onClick={handleClick}
       className="text-white px-4 py-2 rounded-md frosted-glass"
     >
-      Open Map
+      Get location
     </button>
   );
 };
