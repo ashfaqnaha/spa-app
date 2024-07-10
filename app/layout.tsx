@@ -17,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Preload background images */}
+        <link rel="preload" href="/web1.webp" as="image" />
+        <link rel="preload" href="/web7.webp" as="image" />
+        <link rel="preload" href="/web6.webp" as="image" />
+        <link rel="preload" href="/web8.webp" as="image" />
+      </head>
       <body className="bg-white">
         <div className="relative h-screen w-screen">
           <BackgroundShuffler />
