@@ -7,7 +7,7 @@ const images = [
   'url(/web1.webp)',
   'url(/web7.webp)',
   'url(/web6.webp)',
-  'url(/web8.webp)',
+  
 ];
 
 const BackgroundShuffler = () => {
