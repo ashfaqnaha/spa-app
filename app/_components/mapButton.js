@@ -1,6 +1,6 @@
 'use client';
 
-const MapButton = ({ latitude=69, longitude=69 }) => {
+const MapButton = ({ latitude=9.964937, longitude=76.243562 }) => {
   const handleClick = () => {
     const userAgent = window.navigator.userAgent;
     let mapUrl = '';
@@ -15,7 +15,7 @@ const MapButton = ({ latitude=69, longitude=69 }) => {
     } 
     // Default to Google Maps for other cases
     else {
-      mapUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+      mapUrl = `https://maps.app.goo.gl/1wHsX7CDt8LXJ4vn7`;
     }
 
     // Redirect to the map URL
