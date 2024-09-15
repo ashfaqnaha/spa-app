@@ -31,12 +31,12 @@ body {
     text-wrap: balance;
   }
   .frosted-glass {
-    backdrop-filter: blur(20px); 
-    background-color: rgba(110, 38, 14, 0.752); 
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.25); 
     transition: background-color 0.3s ease-in-out; 
   }
 
-  /* .frosted-glass:hover {
+  .frosted-glass:hover {
     background-color: rgba(255, 250, 255, 0.40); 
-  } */
+  }
 }
